@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Keyboard Chord Recognition</title>
+</head>
+<body>
+    <h2>🎹 Keyboard Chord Recognition System</h2>
+
+    <form method="POST">
+        <button type="submit">🎤 Play Chord (2 Seconds)</button>
+    </form>
+
+    {% if predicted_chord %}
+        <h3>Predicted Chord: {{ predicted_chord }}</h3>
+    {% endif %}
+</body>
+</html>
+ 
