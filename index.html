@@ -47,6 +47,15 @@
         </div>
     {% endif %}
 
+<!-- new code start from here-->
+    {% if ai_feedback %}
+    <div class="result-box">
+        <h2>AI Feedback</h2>
+        <p class="feedback">{{ ai_feedback }}</p>
+    </div>
+{% endif %}
+
+<!-- new code end  here-->
     <div class="instructions">
         <h3>Instructions</h3>
         <ul>
